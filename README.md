@@ -1,7 +1,6 @@
 # Crypto-Pairs-Trading
 This is a code exploring a statistical arbitrage strategy to trade crypto pairs.
 
-
 First, the code (cointegration_analsis.py) analyzes the performance of 8 cryptocurrencies from 1-1-2020 to 5-31-2020 with respect to their intial values: 
 ![Alt text](https://github.com/coderaashir/Crypto-Pairs-Trading/blob/main/Results/Screenshot%202020-11-06%20at%203.34.15%20PM.png)
 
@@ -19,13 +18,14 @@ Now it implements a strategy to trade.
 
 It calculate the z-scores (how many standard deviations has the asset moved from the mean) and places trades accordingly. 
 
-Results: 
+# Results
 
-Sharpe Ratio (> 1 is ideal)  
+Sharpe Ratio Table (> 1 is ideal)  
 
-            | BTC ETH  |  BTC LTC  | BTC XRP  |
-Training Set| 4.744124 |  3.182864 | 3.630110 |
-Testing Set | 1.158460 | -1.808723 | 2.060752 |
+|              | BTC-ETH  | BTC-LTC   | BTC-XRP  |
+|--------------|----------|-----------|----------|
+| Training Set | 4.744124 | 3.182864  | 3.630110 |
+| Testing Set  | 1.158460 | -1.808723 | 2.060752 |
 
 Cumulative PNL: 
 
