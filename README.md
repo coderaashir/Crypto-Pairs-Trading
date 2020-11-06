@@ -14,9 +14,7 @@ The code finds the p values of each pair, and plots a heat map that allows us to
 
 We can see that the best trades are BTC-ETH, BTC-LTC, and BTC-XRP 
 
-Now it implements a strategy to trade. 
-
-It calculate the z-scores (how many standard deviations has the asset moved from the mean) and places trades accordingly. 
+We can calculate the z-scores for these pairs (how many standard deviations the asset has moved from the mean) and place trades accordingly. 
 
 # Results
 
